@@ -72,6 +72,19 @@ const questions = [
       return "Your README requires a project title.";
     },
   },
+  //  Project Title
+  {
+    type: "input",
+    message: "Enter your project Description",
+    name: "description",
+    validate: function (description) {
+      if (description) {
+        return true;
+      }
+
+      return "Your README requires a project Description.";
+    },
+  },
   {
     //Installation
     type: "input",
