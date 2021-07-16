@@ -1,8 +1,8 @@
 
-  # README.md Generaator
+  # jj
   
   ## Description
-  this akdlfakd lafjkla afklfjdflkj fajldkfl fajlskjfk afkdjal
+  jj
   
   ## Table of Contents
 
@@ -13,28 +13,33 @@
 
 
   ## Installation
-  clone this repo, insure node is install on your comp, in terminaal npm install inquirer
+  jj
   
   ## Usage 
-  once installed just runn node index.js
-  ![screenshot1](./img/a.png)
+  jj
+  
 
   ## Credits
-  me
+  jj
 
   ## License
 
-  to be figured out next
+  This project is [AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0/) licensed.<br />
+  Copyright © 2021 [JJ JJ](https://github.com/jj)
+
+  This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+   
 
   ## Contributing
-  i dont care
+  jj
 
   ## Tests
-  npm teesst
+  jj
 
-  ##Questions
-  Contact jacob banks with any questions!<br>
-  Github link: [jacob-banks](https://github.com/jacob-banks)<br>
-  Email: kobybanks@gmail.com
+  ## Questions
+  Contact jj jj with any questions!<br>
+  Github link: [jj](https://github.com/jj)<br>
+  Email: jj@jj.jj
 
 

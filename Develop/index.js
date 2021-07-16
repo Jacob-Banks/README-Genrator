@@ -189,12 +189,20 @@ const promptUser = () => {
         },
 
         {
-          name: "a",
-          value: "a",
+          name: "Boost Software 1.0 ",
+          value: "bsl-1.0",
         },
         {
-          name: "B",
-          value: "b",
+          name: "GNU AGPLv3",
+          value: "agpl-3.0",
+        },
+        {
+          name: "GNU GPLv3",
+          value: "gpl-3.0",
+        },
+        {
+          name: "Mozilla Public 2.0",
+          value: "mpl-2.0",
         },
       ],
     },
@@ -219,6 +227,7 @@ const writeFile = (fileContent) => {
 
 function init() {
   promptUser().then((answers) => {
+    console.log(answers.license);
     const readme = generateReadme(answers);
     fs.writeFile("./READme.md", readme, (err) => {
       if (err) throw new Error(err);
@@ -228,10 +237,6 @@ function init() {
       );
     });
   });
-  // .then((data) => {
-  //   return generateReadme(data);
-  // })
-  // .then(writeFile(data));
 }
 
 // Function call to initialize app
