@@ -1,9 +1,8 @@
-
-  # readme-generator
-  ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-generator)
-  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/jacob-banks/readme-generator)
-  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-generator)
-  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-generator)
+# README generator
+  ![GitHub](https://img.shields.io/github/license/jacob-banks/README-Genrator)
+  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/jacob-banks/README-Genrator)
+  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/README-Genrator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/README-Genrator)
 
   
   ## Description
