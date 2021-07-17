@@ -1,10 +1,10 @@
 
   # README generator
-  ![GitHub](https://img.shields.io/github/license/jacob-banks/README-Genrator)
-  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/jacob-banks/README-Genrator)
-  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/README-Genrator)
-  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/README-Genrator)
+![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
+    ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-genrator)
 
+  
   
   ## Description
   This is a node app that creates a professional README!
