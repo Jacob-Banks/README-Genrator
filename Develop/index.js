@@ -229,7 +229,7 @@ function init() {
   promptUser().then((answers) => {
     console.log(answers.license);
     const readme = generateReadme(answers);
-    fs.writeFile("./READme.md", readme, (err) => {
+    fs.writeFile("./README.md", readme, (err) => {
       if (err) throw new Error(err);
 
       console.log(

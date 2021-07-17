@@ -1,8 +1,13 @@
 
-  # jj
+  # readme-generator
+  ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-generator)
+  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/jacob-banks/readme-generator)
+  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-generator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-generator)
+
   
   ## Description
-  jj
+  This is a node app. Answer the prompts and then you now have a professional readme!
   
   ## Table of Contents
 
@@ -13,33 +18,31 @@
 
 
   ## Installation
-  jj
+  insure node is installed. Then clone this repo. Install inquirer, using npm install inquirer in terminal
   
   ## Usage 
-  jj
-  
+  Once everything is installed just open terminal and tyoe node index.js
+  ![screenshot1](./img/a.png)
 
   ## Credits
-  jj
+  jacob banks
 
   ## License
 
-  This project is [AGPL-3.0](https://choosealicense.com/licenses/agpl-3.0/) licensed.<br />
-  Copyright © 2021 [JJ JJ](https://github.com/jj)
+  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
+  Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks)
 
-  This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
-   
+  
 
   ## Contributing
-  jj
+  go for it
 
   ## Tests
-  jj
+  i have no idea
 
   ## Questions
-  Contact jj jj with any questions!<br>
-  Github link: [jj](https://github.com/jj)<br>
-  Email: jj@jj.jj
+  Contact Jacob Banks with any questions!<br>
+  Github link: [jacob-banks](https://github.com/jacob-banks)<br>
+  Email: kobybanks@gmail.com
 
 
