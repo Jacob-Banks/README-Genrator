@@ -1,13 +1,12 @@
 
-  # README generator
-  ![GitHub](https://img.shields.io/github/license/jacob-banks/README-Genrator)
-  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/jacob-banks/README-Genrator)
-  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/README-Genrator)
-  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/README-Genrator)
+  # readme-generator
+  ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
+    ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-genrator)
 
   
   ## Description
-  This is a node app that creates a professional README!
+  This is a node app that allows the user to quickly create a professional readme
   
   ## Table of Contents
 
@@ -18,14 +17,14 @@
 
 
   ## Installation
-  Clone this repo, attach to your repop, insure node is installed, in terminal install inquireier(npm install inquirer) 
+  clone this repo, insure node is installed, in terminal install inquirer(npm install inquirer)
   
   ## Usage 
-  Once installed just open terminal and launch node index.js
+  in terminal/bash just type node index.js
   ![screenshot1](./img/a.png)
 
   ## Credits
-  Jacob BANKS
+  jacob banks
 
   ## License
 
@@ -38,7 +37,7 @@
   have fun
 
   ## Tests
-  no idea
+  npm test
 
   ## Questions
   Contact Jacob Banks with any questions!<br>
