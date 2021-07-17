@@ -59,12 +59,9 @@ function generateMarkdown(data) {
   ![GitHub](https://img.shields.io/github/license/${data.gitHubName}/${
     data.repoName
   })
-  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/${
-    data.gitHubName
-  }/${data.repoName})
-  ![GitHub language count](https://img.shields.io/github/languages/count/${
-    data.gitHubName
-  }/${data.repoName})
+    ![GitHub language count](https://img.shields.io/github/languages/count/${
+      data.gitHubName
+    }/${data.repoName})
   ![GitHub top language](https://img.shields.io/github/languages/top/${
     data.gitHubName
   }/${data.repoName})
