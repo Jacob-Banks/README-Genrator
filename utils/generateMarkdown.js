@@ -56,9 +56,7 @@ function generateMarkdown(data) {
   renderLicenseSection(data);
   return `
   # ${data.title}
-  ![GitHub](https://img.shields.io/github/license/${data.gitHubName}/${
-    data.repoName
-  })
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
     ![GitHub language count](https://img.shields.io/github/languages/count/${
       data.gitHubName
     }/${data.repoName})
