@@ -1,13 +1,12 @@
 
-  # README generator
-![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
+  # readme-genrator
+  ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
     ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
   ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-genrator)
 
   
-  
   ## Description
-  This is a node app that allows the user to quickly create a professional readme
+  testing license
   
   ## Table of Contents
 
@@ -18,27 +17,32 @@
 
 
   ## Installation
-  clone this repo, insure node is installed, in terminal install inquirer(npm install inquirer)
+  testing license
   
   ## Usage 
-  in terminal/bash just type node index.js
-  ![screenshot1](./img/a.png)
+  testing license
+  
 
   ## Credits
-  jacob banks
+  n
 
   ## License
 
-  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
+  This project is [APACHE-2.0](https://choosealicense.com/licenses/apache-2.0/) licensed.<br />
   Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks)
 
   
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
 
   ## Contributing
-  have fun
+  n
 
   ## Tests
-  npm test
+  n
 
   ## Questions
   Contact Jacob Banks with any questions!<br>
