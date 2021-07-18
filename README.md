@@ -1,7 +1,7 @@
 
   # readme-genrator
   ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
-    ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
+  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
   ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-genrator)
 
   
