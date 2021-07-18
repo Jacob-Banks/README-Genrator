@@ -209,17 +209,18 @@ const promptUser = () => {
   ]);
 };
 // TODO: Create a function to write README file
-const writeFile = (fileContent) => {
-  fs.writeFile("README.md", fileContent, (err) => {
+const writeFile = (answers) => {
+  const readme = generateReadme(answers);
+
+  fs.writeFile("README.md", readme, (err) => {
     if (err) {
       reject(err);
       return;
+    } else {
+      console.log(
+        "Page created! Check out readme.md in this directory to see it!"
+      );
     }
-
-    resolve({
-      ok: true,
-      message: "File created!",
-    });
   });
 };
 
@@ -227,15 +228,7 @@ const writeFile = (fileContent) => {
 
 function init() {
   promptUser().then((answers) => {
-    console.log(answers.license);
-    const readme = generateReadme(answers);
-    fs.writeFile("./README.md", readme, (err) => {
-      if (err) throw new Error(err);
-
-      console.log(
-        "Page created! Check out readme.md in this directory to see it!"
-      );
-    });
+    writeFile(answers);
   });
 }
 

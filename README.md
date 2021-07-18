@@ -1,12 +1,12 @@
 
-  #  v
-  ![GitHub](https://img.shields.io/github/license/jacob-banks/readme-genrator)
-    ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/readme-genrator)
-  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/readme-genrator)
+  # Professional README Genrator
+  ![GitHub](https://img.shields.io/github/license/jacob-banks/README-Genrator)
+  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/README-Genrator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/README-Genrator)
 
   
   ## Description
-  v
+  This app will create a profesional README.md for yor repository! Includes badges, table of contents, screenshots, license!
   
   ## Table of Contents
 
@@ -17,36 +17,29 @@
 
 
   ## Installation
-  v
+  Clone this repo, insure node is installed on your computer, install inquirer(npm install inquirer) in terminal/bash.
   
   ## Usage 
-  v
-  
+  Once set up just type in commandline "node index.js" and answer all the prompts!
+  ![screenshot1](./img/a.png)
 
   ## Credits
-  v
+  Jacob Banks
 
   ## License
 
-  This project is [APACHE-2.0](https://choosealicense.com/licenses/apache-2.0/) licensed.<br />
-  Copyright © 2021 [BB BB](https://github.com/jacob-banks)
+  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
+  Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks)
 
   
-      Licensed under the Apache License, Version 2.0 (the "License");
-      you may not use this file except in compliance with the License.
-      You may obtain a copy of the License at
-      http://www.apache.org/licenses/LICENSE-2.0
- 
 
   ## Contributing
-  v
+  Please feel free to add adjust any file, please contact me before merging into main. Email kobyBanks@gmail.com
 
   ## Tests
-  v
+  n/a
 
   ## Questions
-  Contact bb bb with any questions!<br>
+  Contact Jacob Banks with any questions!<br>
   Github link: [jacob-banks](https://github.com/jacob-banks)<br>
-  Email: b@b.b
-
-
+  Email: kobybanks@gmail.com
