@@ -115,12 +115,55 @@ const promptUser = () => {
       },
     },
     {
+      //check on links
+      type: "confirm",
+      name: "links",
+      message: "Would you like to add any links to your README Usage section?",
+      default: false,
+    },
+    {
+      //  image path
+      type: "input",
+      name: "message",
+      message: "Provide the message to acompany your links.",
+      when: function (answers) {
+        return answers.message !== false;
+      },
+      validate: function (message) {
+        if (message) {
+          return true;
+        }
+
+        return "Provide the message for links. ";
+      },
+    },
+    {
+      //   link
+      type: "input",
+      name: "linksUrl",
+      message:
+        'Provide the url(s) for your links.  Multiple entries must be seperated with a COMMA  "," ',
+      when: function (answers) {
+        return answers.links !== false;
+      },
+      validate: function (linkURL) {
+        if (linkURL) {
+          return true;
+        }
+
+        return "Provide the urls of the links. ";
+      },
+    },
+
+    {
       //check on screenshots
       type: "confirm",
       name: "screenshots",
-      message: "Would you like to add screenshots or demo to README?",
+      message:
+        "Would you like to add screenshots to your README Usage section?",
       default: false,
     },
+
     {
       //  image path
       type: "input",
@@ -130,8 +173,8 @@ const promptUser = () => {
       when: function (answers) {
         return answers.screenshots !== false;
       },
-      validate: function (imageURL) {
-        if (imageURL) {
+      validate: function (image) {
+        if (image) {
           return true;
         }
 

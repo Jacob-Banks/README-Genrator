@@ -45,6 +45,11 @@ function renderLicenseSection(data) {
 //
 
 function generateMarkdown(data) {
+  let links = "";
+  if (data.linksUrl) {
+    links = `${data.message}` + " " + data.linksUrl.split(",").join("<br>");
+  }
+
   let screenshots = "";
   if (data.image) {
     for (let i = 0; i < data.image.split(",").length; i++) {
@@ -84,6 +89,7 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usage}
   ${screenshots}
+  ${links}
 
   ## Credits
   ${data.credits}
